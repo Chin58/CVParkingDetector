@@ -73,8 +73,8 @@ Means of all quadrants are calculated (u1-u4)
 Then find the distance betwee .n each quadrant and the entired lot (u0)
 '''
 #Set variable for video
-#VIDEO =  'parkinglot.avi'
-cap = cv2.VideoCapture(0)
+VIDEO =  'parkinglot.avi'
+cap = cv2.VideoCapture(VIDEO)
 #cap = cv2.VideoCapture(0) #for video streaming from main Web Cam
 cap.set(cv2.CAP_PROP_FPS, 30)
 currentFrame = 0
